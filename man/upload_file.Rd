@@ -4,8 +4,12 @@
 \alias{upload_file}
 \title{Upload a local file to Egnyte}
 \usage{
-upload_file(file, dest, token = get_parameter("token"),
-  domain = get_parameter("domain"))
+upload_file(
+  file,
+  dest,
+  token = get_parameter("token"),
+  domain = get_parameter("domain")
+)
 }
 \arguments{
 \item{file}{Path to a local file}

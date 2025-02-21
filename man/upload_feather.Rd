@@ -4,8 +4,13 @@
 \alias{upload_feather}
 \title{Upload a feather file to Egnyte}
 \usage{
-upload_feather(x, dest, token = egnyter::get_parameter("token"),
-  domain = egnyter::get_parameter("domain"), ...)
+upload_feather(
+  x,
+  dest,
+  token = egnyter::get_parameter("token"),
+  domain = egnyter::get_parameter("domain"),
+  ...
+)
 }
 \arguments{
 \item{x}{A data frame to upload to Egnyte}

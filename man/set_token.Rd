@@ -4,14 +4,14 @@
 \alias{set_token}
 \title{Save authorisation details for an Egnyter user}
 \usage{
-set_token(domain, app_key, username, password)
+set_token(domain, app_key, app_secret, username, password)
 }
 \arguments{
 \item{domain}{the URL of your Egnyte domain}
 
 \item{app_key}{API key of your Egnyte application}
 
-\item{app_secret}{API secret key of your Egnyte application}
+\item{app_secret}{API secret key of your Egnyte application (new as of 2019)}
 
 \item{username}{user's Egnyte username}
 

@@ -4,8 +4,13 @@
 \alias{upload_csv}
 \title{Upload a csv file to Egnyte}
 \usage{
-upload_csv(x, dest, token = egnyter::get_parameter("token"),
-  domain = egnyter::get_parameter("domain"), ...)
+upload_csv(
+  x,
+  dest,
+  token = egnyter::get_parameter("token"),
+  domain = egnyter::get_parameter("domain"),
+  ...
+)
 }
 \arguments{
 \item{x}{A data frame to upload to Egnyte}

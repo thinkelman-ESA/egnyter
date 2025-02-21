@@ -4,14 +4,14 @@
 \alias{authenticate_user}
 \title{Authenticate a user using the Egnyte Filesystem API}
 \usage{
-authenticate_user(domain, app_key, username, password)
+authenticate_user(domain, app_key, app_secret, username, password)
 }
 \arguments{
 \item{domain}{the URL of your Egnyte domain}
 
 \item{app_key}{API key of your Egnyte application}
 
-\item{app_secret}{API secret key of your Egnyte application}
+\item{app_secret}{API secret key of your Egnyte application (new as of 2019)}
 
 \item{username}{user's Egnyte username}
 
@@ -25,7 +25,7 @@ In order for this function to work you (or an admin) must first create a new API
 
 
 Use this function to authenticate a specific user for your Egnyter API application.
-This function will return the authorisation token that is required for the Egnyter \code{upload_*} and \code{download_*}
+This function will return the authorisation token that is required for the Egnyter \verb{upload_*} and \verb{download_*}
 functions to operate.
 
 You can run this function directly every time your require an authorisation token or use \code{\link{set_token}} to save

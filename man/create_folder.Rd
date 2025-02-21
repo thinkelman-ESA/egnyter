@@ -4,8 +4,12 @@
 \alias{create_folder}
 \title{Create a new folder in an Egnyte filesystem}
 \usage{
-create_folder(parent_folder, new_folder_name,
-  token = get_parameter("token"), domain = get_parameter("domain"))
+create_folder(
+  parent_folder,
+  new_folder_name,
+  token = get_parameter("token"),
+  domain = get_parameter("domain")
+)
 }
 \arguments{
 \item{parent_folder}{The full path (starting 'Shared/') of the location that the new folder will be created}

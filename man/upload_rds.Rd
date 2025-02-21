@@ -4,8 +4,12 @@
 \alias{upload_rds}
 \title{Upload an RDS file to Egnyte}
 \usage{
-upload_rds(object, dest, token = egnyter::get_parameter("token"),
-  domain = egnyter::get_parameter("domain"))
+upload_rds(
+  object,
+  dest,
+  token = egnyter::get_parameter("token"),
+  domain = egnyter::get_parameter("domain")
+)
 }
 \arguments{
 \item{object}{The object to be saved}
